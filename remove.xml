@@ -2,5 +2,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!-- devices -->
+<remove-project name="device/google/accessory/arduino" />
+<remove-project name="device/google/accessory/demokit" />
+<remove-project name="device/google/atv" />
+<remove-project name="device/google/contexthub" />
+<remove-project name="device/google/cuttlefish" />
+<remove-project name="device/google/cuttlefish_common" />
+<remove-project name="device/google/marlin" />
+<remove-project name="device/google/muskie" />
+<remove-project name="device/google/taimen" />
+<remove-project name="device/google/vrservices" />
+<remove-project name="device/google/wahoo" />
+<remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
+<remove-project name="device/linaro/bootloader/edk2" />
+<remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
+<remove-project name="device/linaro/hikey" />
+
+<!-- Kernel -->
+<remove-project name="device/google/cuttlefish_kernel" />
+<remove-project name="device/google/marlin-kernel" />
+<remove-project name="device/google/wahoo-kernel" />
+<remove-project name="device/linaro/hikey-kernel" />
+
 	
 </manifest>
