@@ -1,0 +1,17 @@
+<!-- Override default manifest here -->
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Delete all unsed or repos which are overrided in the project : remove.xml -->
+<include name="remove.xml" />
+
+<!-- Included aosp overrided repos -->
+<include name="aospie-aosp.xml" />
+
+<!-- Included CAF projects -->
+<include name="asopie-caf.xml" />
+
+<!-- Included core aospie -->
+<include name="aospie-core.xml" />
+
+</manifest>

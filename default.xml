@@ -698,4 +698,7 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+    <!-- aosPie -->
+  <include name="aospie-default.xml" />
+
 </manifest>
